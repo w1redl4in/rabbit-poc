@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-handler-errors": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.5.16",
+    "@types/express": "^4.17.9",
+    "ts-node-dev": "^1.1.1",
+    "tsc": "^1.20150623.0",
+    "typescript": "^4.1.2"
+  },
+  "scripts": {
+    "start": "ts-node-dev src/server.ts"
+  }
+}
